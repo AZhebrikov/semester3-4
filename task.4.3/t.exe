@@ -1,0 +1,20 @@
+echo "=================================================================================================\n Происходит показ файлов:\n"
+
+
+echo "t1.txt:"
+cat t1.txt
+
+echo "t2.txt:"
+cat t2.txt
+
+echo "t3.txt:"
+cat t3.txt
+
+echo "t4.txt:"
+cat t4.txt
+
+echo "t5.txt:"
+cat t5.txt
+
+echo "Происходит чистка файлов.\n" && rm t1.txt t2.txt t3.txt t4.txt t5.txt txt_sav1.txt txt_sav2.txt txt_TMP1.txt txt_TMP2.txt txt_TMP3.txt txt_TMP4.txt main *.o
+echo "Пока. ;)"
